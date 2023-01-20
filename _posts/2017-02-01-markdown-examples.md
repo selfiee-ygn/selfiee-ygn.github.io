@@ -9,6 +9,8 @@ Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, tur
 
 ## Pricing
 
+30,500 Kyats
+
 ### Images
 
 ![Panda](https://raw.githubusercontent.com/selfiee-ygn/selfiee-ygn.github.io/master/assets/images/panda.jpg)
