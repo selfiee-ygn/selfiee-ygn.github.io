@@ -1,2 +1,2 @@
-[Products A](posts/product-a.md)
-[Products A](posts/product-b.md)
+- [Products A](posts/product-a.md)
+- [Products A](posts/product-b.md)
