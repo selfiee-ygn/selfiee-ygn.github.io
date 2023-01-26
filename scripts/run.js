@@ -36,27 +36,33 @@ if (notFound.length) {
 //     });
 // });
 
-const reg = new RegExp(/(\d+\.\w{3,4})$/);
-items.forEach((each) => {
-  const postPath = `../posts/${each.cleanName}.md`;
-  let content = ["**Description:**", "**Price:**"].join("\n\n") + "\n\n";
+// const reg = new RegExp(/(\d+\.\w{3,4})$/);
+// items.forEach((each) => {
+//   const postPath = `../posts/${each.cleanName}.md`;
+//   let content = ["**Description:**", "**Price:**"].join("\n\n") + "\n\n";
 
-  if (each.notesTxt) {
-    const notesPath = `${dir}/${each.fileName}/notes.txt`;
-    content = fs.readFileSync(notesPath);
-    content = content + "\n\n";
-  }
+//   if (each.notesTxt) {
+//     const notesPath = `${dir}/${each.fileName}/notes.txt`;
+//     content = fs.readFileSync(notesPath);
+//     content = content + "\n\n";
+//   }
 
-  content =
-    content +
-    each.images
-      .filter((each) => each !== "notes.text")
-      .map((eachImage) => {
-        const fileName = eachImage.toPath.match(reg)[1];
-        return `![${fileName}](../images/${fileName})`;
-      })
-      .filter(Boolean)
-      .join("\n\n");
+//   content =
+//     content +
+//     each.images
+//       .filter((each) => each !== "notes.text")
+//       .map((eachImage) => {
+//         const fileName = eachImage.toPath.match(reg)[1];
+//         return `![${fileName}](../images/${fileName})`;
+//       })
+//       .filter(Boolean)
+//       .join("\n\n");
 
-  fs.writeFileSync(postPath, content);
-});
+//   fs.writeFileSync(postPath, content);
+// });
+
+const cleanNames = items
+  .map((each) => `- [${each.fileName}](posts/${each.cleanName}.md)`)
+  .join("\n");
+
+fs.writeFileSync("../index.md", cleanNames);
