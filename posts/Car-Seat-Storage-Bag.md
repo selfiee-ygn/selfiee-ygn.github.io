@@ -9,9 +9,9 @@
 
 ခလေးတွေကို ရှေ့ခန်းကိုမရောက်အောင်ကာထားပေးပါတယ် စတိုင်လေးလဲလှပီးသေသပ် ပါတယ်
 
-![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-1.JPG)
-![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-2.JPG)
-![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-3.JPG)
-![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-4.JPG)
-![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-5.JPG)
-![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-6.JPG)
+![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-1.jpg)
+![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-2.jpg)
+![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-3.jpg)
+![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-4.jpg)
+![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-5.jpg)
+![Car Seat Storage Bag](../images/Car-Seat-Storage-Bag-6.jpg)
