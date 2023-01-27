@@ -4,29 +4,29 @@ const dir = "C:/Users/SanDaKu/Desktop/Shop";
 const jsonStr = fs.readFileSync("data.json");
 const items = JSON.parse(jsonStr);
 
-const directoryFound = items.reduce((sum, eachItem) => {
-  const directory = eachItem.images.filter((eachImage) =>
-    fs.lstatSync(eachImage.fromPath).isDirectory()
-  );
-  return sum.concat(directory);
-}, []);
+// const directoryFound = items.reduce((sum, eachItem) => {
+//   const directory = eachItem.images.filter((eachImage) =>
+//     fs.lstatSync(eachImage.fromPath).isDirectory()
+//   );
+//   return sum.concat(directory);
+// }, []);
 
-if (directoryFound.length) {
-  fs.writeFileSync("directory.json", JSON.stringify(directoryFound));
-  throw new Error("Directory are found");
-}
+// if (directoryFound.length) {
+//   fs.writeFileSync("directory.json", JSON.stringify(directoryFound));
+//   throw new Error("Directory are found");
+// }
 
-const notFound = items.reduce((sum, each) => {
-  const current = each.images.filter(
-    (eachImage) => !fs.existsSync(eachImage.fromPath)
-  );
-  return sum.concat(current);
-}, []);
+// const notFound = items.reduce((sum, each) => {
+//   const current = each.images.filter(
+//     (eachImage) => !fs.existsSync(eachImage.fromPath)
+//   );
+//   return sum.concat(current);
+// }, []);
 
-if (notFound.length) {
-  fs.writeFileSync("not-found.json", JSON.stringify(notFound));
-  throw new Error("Images are found");
-}
+// if (notFound.length) {
+//   fs.writeFileSync("not-found.json", JSON.stringify(notFound));
+//   throw new Error("Images are found");
+// }
 
 // items.forEach((each, itemIndex) => {
 //   each.images
