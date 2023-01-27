@@ -62,7 +62,7 @@ const items = JSON.parse(jsonStr);
 // });
 
 const cleanNames = items
-  .map((each) => `- [${each.fileName}](posts/${each.cleanName}.md)`)
+  .map((each) => `1. [${each.fileName}](posts/${each.cleanName}.md)`)
   .join("\n");
 
 fs.writeFileSync("../index.md", cleanNames);
