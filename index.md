@@ -1,5 +1,5 @@
 1. [150-pcs-Art-Set](posts/150-pcs-Art-Set.md)
-1. ~~[2-Popularity-King-Size Inflatable-Mattress](posts/2-Popularity-King-Size-Inflatable-Mattress.md)~~
+1. [2-Popularity-King-Size Inflatable-Mattress](posts/2-Popularity-King-Size-Inflatable-Mattress.md)
 1. [2in1-သဘက်](posts/2in1-သဘက်.md)
 1. [2ways-Crossbody-Bag](posts/2ways-Crossbody-Bag.md)
 1. [4-in-1-underwears (ကျား)](<posts/4-in-1-underwears-(ကျား).md>)
