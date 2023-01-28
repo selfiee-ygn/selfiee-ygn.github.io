@@ -8,10 +8,10 @@ This is a repository for storing product information and images for **selfiee-yg
 ## How to use
 
 1. Prepare the required images for a given product **E.g အ​မွှေးထုပ်**
-    - Rename image file names with the format **Product name followed by a running sequence** `E.g. အ​မွှေးထုပ်-1.jpg, အ​မွှေးထုပ်-2.jpg`
-    - Makesure that all the file names are in  **lowercase** with **-** .
+    - Rename image file names with the format **a product roduct name followed by a running sequence** `E.g. အ​မွှေးထုပ်-1.jpg, အ​မွှေးထုပ်-2.jpg`
+    - Makesure that all the file names are in  **lowercase** with **Hyphen(-)** .
 2. Copy the images from the above step into `images` directory of the current project
-3. Create a prodruct page `E.g. အ​မွှေးထုပ်.md` in `posts/အ​မွှေးထုပ်.md`, include the links of the images prepared in Step 2.
+3. Create a prodruct page `E.g. အ​မွှေးထုပ်.md` in `posts/အ​မွှေးထုပ်.md`, include the links to the images prepared in Step 2.
 
 
 
@@ -29,8 +29,7 @@ This is a repository for storing product information and images for **selfiee-yg
         ![အ​မွှေးထုပ်.jpg](../images/အ​မွှေးထုပ်-13.jpg)
 
 
-4. Add the required information to `အ​မွှေးထုပ်.md` created in Step 3.
+4. Add the required information such as (Description, Price) to `အ​မွှေးထုပ်.md`
 5. Add the link of `အ​မွှေးထုပ်.md` to `index.md` as below 
-
 
         1.  [အ​မွှေးထုပ်](posts/အ​မွှေးထုပ်.md)
